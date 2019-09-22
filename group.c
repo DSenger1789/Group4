@@ -1,6 +1,8 @@
 // Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
 void Linda(void){
 	char myName[20] = "Linda Schimming";
+	char myYearInSchool[3] = "3";
+    char myMajor[30] = "Computer Science";
 }
 
 
