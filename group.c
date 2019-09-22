@@ -3,6 +3,8 @@ void Linda(void){
 	char myName[20] = "Linda Schimming";
 	char myYearInSchool[3] = "3";
     char myMajor[30] = "Computer Science";
+	char myHobbies[40] = "drawing, horseback riding";
+    char myHometown[20] = "Puyallup,WA";
 }
 
 
