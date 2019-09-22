@@ -1,5 +1,7 @@
 // Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
-
+void Linda(void){
+	char myName[20] = "Linda Schimming";
+}
 
 
 int main(){
@@ -9,6 +11,7 @@ int main(){
   chars hobbies[60];
   chars hometown[20];
   chars anythingElse[90];
-  
+  Linda();
+  return 0;
   
 }
