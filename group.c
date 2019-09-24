@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
 
 void Meaghan(){
   char userName[20] = "Meaghan Toomey";
@@ -12,14 +13,13 @@ void Meaghan(){
   
 }
   
-// Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
 void Linda(){
-	char myName[20] = "Linda Schimming";
-	char myYearInSchool[3] = "3";
-  char myMajor[30] = "Computer Science";
-	char myHobbies[40] = "drawing, horseback riding";
-  char myHometown[20] = "Puyallup,WA";
-	char myInteresting[20] = "unsure";
+   char myName[20] = "Linda Schimming";
+   char myYearInSchool[3] = "3";
+   char myMajor[30] = "Computer Science";
+   char myHobbies[40] = "drawing, horseback riding";
+   char myHometown[20] = "Puyallup,WA";
+   char myInteresting[20] = "unsure";
   
   printf(" My Name: %s\n My year in school: %s\n My Major: %s \n My Hobbies: %s \n My Hometown: %s \n Someting interesting : %s \n",myName, myYearInSchool, myMajor, myHobbies, myHometown, myInteresting);
    
