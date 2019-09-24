@@ -1,14 +1,20 @@
-// Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
+#include <stdio.h>
 
+void Meaghan(){
+  char userName[20] = "Meaghan Toomey";
+  char class[15]  = "Freshman";
+  char major[15] = "CS & Marketing";
+  char hobbies[60]  = "Digital art and writing";
+  char hometown[20] = "Missoula";
+  char anythingElse[100] = "I can solve a rubiks cube :D";
+ 
+  printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
+}
 
 
 int main(){
-  chars userName[20];
-  int yearInSchool;
-  chars major[15];
-  chars hobbies[60];
-  chars hometown[20];
-  chars anythingElse[90];
-  
-  
+
+ Meaghan();
+
+ return 0; 
 }
