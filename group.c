@@ -1,12 +1,24 @@
-// Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
 #include <stdio.h>
- master
-void Linda(void){
+
+void Meaghan(){
+  char userName[20] = "Meaghan Toomey";
+  char class[15]  = "Freshman";
+  char major[15] = "CS & Marketing";
+  char hobbies[60]  = "Digital art and writing";
+  char hometown[20] = "Missoula";
+  char anythingElse[100] = "I can solve a rubiks cube :D";
+ 
+  printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
+  
+}
+  
+// Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
+void Linda(){
 	char myName[20] = "Linda Schimming";
 	char myYearInSchool[3] = "3";
-    char myMajor[30] = "Computer Science";
+  char myMajor[30] = "Computer Science";
 	char myHobbies[40] = "drawing, horseback riding";
-    char myHometown[20] = "Puyallup,WA";
+  char myHometown[20] = "Puyallup,WA";
 	char myInteresting[20] = "unsure";
   
   printf(" My Name: %s\n My year in school: %s\n My Major: %s \n My Hobbies: %s \n My Hometown: %s \n Someting interesting : %s \n",myName, myYearInSchool, myMajor, myHobbies, myHometown, myInteresting);
@@ -23,25 +35,15 @@ void Dustin(){
   char anythingElse[100] = "Did a 6 month tour in the Middle East w/ the Air Natl. Guard";
  
   printf("%s %s %s %s %s %s", userName, class, major, hobbies, hometown, anythingElse);
-master
+
 }
 
 
 int main(){
- master
-  chars userName[20];
-  int yearInSchool;
-  chars major[15];
-  chars hobbies[60];
-  chars hometown[20];
-  chars anythingElse[90];
-  Linda();
-  
-  
 
-
+ Meaghan();
+ Linda();
  Dustin();
 
- return 0; 
-master
+ return 0;
 }
