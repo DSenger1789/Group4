@@ -32,18 +32,32 @@ void Dustin(){
   char major[15] = "Finance";
   char hobbies[60]  = "Photography";
   char hometown[20] = "Great Falls";
-  char anythingElse[100] = "Did a 6 month tour in the Middle East w/ the Air Natl. Guard";
+  char anythingElse[100] = "Did a 6 month tour in the Middle East w/ the Air Natl. Guard\n";
  
   printf("%s %s %s %s %s %s", userName, class, major, hobbies, hometown, anythingElse);
 
 }
 
 
+void Tim(){
+    char userName[20] = "Tim Potoczny";
+    char class[15]  = "Senior";
+    char major[15] = "MIS";
+    char hobbies[60]  = "Video Games, Hiking, Travelling";
+    char hometown[20] = "Great Falls";
+    char anythingElse[100] = "I worked at an internship with FAST Enterprises this summer";
+    
+    printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
+    
+}
+
+
 int main(){
 
  Meaghan();
- Linda();
- Dustin();
+    Linda();
+  Dustin();
+    Tim();
 
  return 0;
 }
