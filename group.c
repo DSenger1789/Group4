@@ -1,5 +1,5 @@
 #include <stdio.h>
-// Group methods include name, year in school, major , hobbies, hometown, anything else interesting. 
+// Group methods include name, year in school, major , hobbies, hometown, anything else interesting.
 
 void Meaghan(){
   char userName[20] = "Meaghan Toomey";
@@ -12,7 +12,7 @@ void Meaghan(){
   printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
 }
   
-void Linda(){
+ void Linda(){
    char myName[20] = "Linda Schimming";
    char myYearInSchool[3] = "3";
    char myMajor[30] = "Computer Science";
@@ -43,6 +43,7 @@ void Tim(){
   char anythingElse[100] = "I worked at an internship with FAST Enterprises this summer";
     
   printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
+
 }
 
 
@@ -52,6 +53,6 @@ int main(){
     Linda();
     Dustin();
     Tim();
-
- return 0;
+    
+    return 0;
 }
