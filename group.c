@@ -10,7 +10,6 @@ void Meaghan(){
   char anythingElse[100] = "I can solve a rubiks cube :D";
  
   printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
-  
 }
   
 void Linda(){
@@ -22,8 +21,6 @@ void Linda(){
    char myInteresting[20] = "unsure";
   
   printf(" My Name: %s\n My year in school: %s\n My Major: %s \n My Hobbies: %s \n My Hometown: %s \n Someting interesting : %s \n",myName, myYearInSchool, myMajor, myHobbies, myHometown, myInteresting);
-   
-  
 }
 
 void Dustin(){
@@ -35,28 +32,25 @@ void Dustin(){
   char anythingElse[100] = "Did a 6 month tour in the Middle East w/ the Air Natl. Guard\n";
  
   printf("%s %s %s %s %s %s", userName, class, major, hobbies, hometown, anythingElse);
-
 }
 
-
 void Tim(){
-    char userName[20] = "Tim Potoczny";
-    char class[15]  = "Senior";
-    char major[15] = "MIS";
-    char hobbies[60]  = "Video Games, Hiking, Travelling";
-    char hometown[20] = "Great Falls";
-    char anythingElse[100] = "I worked at an internship with FAST Enterprises this summer";
+  char userName[20] = "Tim Potoczny";
+  char class[15]  = "Senior";
+  char major[15] = "MIS";
+  char hobbies[60]  = "Video Games, Hiking, Travelling";
+  char hometown[20] = "Great Falls";
+  char anythingElse[100] = "I worked at an internship with FAST Enterprises this summer";
     
-    printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
-    
+  printf("%s\n%s\n%s\n%s\n%s\n%s\n", userName, class, major, hobbies, hometown, anythingElse);
 }
 
 
 int main(){
 
- Meaghan();
+    Meaghan();
     Linda();
-  Dustin();
+    Dustin();
     Tim();
 
  return 0;
